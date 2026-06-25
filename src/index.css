@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mocha: #5f4434;
+  --color-ivory: #f7edd8;
+  --color-sand: #ddd0bd;
+  --color-blush: #c7a6a7;
+  --color-sage: #a7b094;
+  --color-pearl: #d7d4d8;
+  --color-text-main: #5f4434;
+  --font-lora: "Lora", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-lora);
+  background-color: var(--color-ivory);
+  color: var(--color-text-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
